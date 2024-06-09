@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Shubhraj, a web developer.</p>
+            <img src="https://cdn.pixabay.com/photo/2018/01/15/02/01/anime-3083036_1280.jpg" alt="Your Photo">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Work on different different projects Such as database
+            related project and relationships also knowledge about the
+            front end as well as backend.
+            learn here how to build Java based project with the help of
+            JDBC, Hibernate as well as Servlet.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <!-- Repeat this block for each project -->
+            <div class="project-item">
+                <h3>Digital Library Management Projec</h3>
+                <p>The Main objective of this project is to provide a complete
+                    automated Library by digitalizing its each and every functionality. Admin and User are two essentially two modules of this software. The project done with the help of JAVA language and SQL
+                    database.</p>
+                <a href="https://github.com/Shubhraj1709/oibsip_taskno4DigitalLibraryManagementBookStore" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/your-email" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shubhraj . All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
